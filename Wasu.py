@@ -4,7 +4,13 @@ import os
 import random
 import string
 import requests
-
+function checkPassword(link) {
+      const pass = prompt("🎋🛡 ENTER PASSWORD TO ACCESS THIS SERVER 🎋🛡");
+      if (pass === "WASU X AZRA") {
+        window.location.href = link;
+      } else {
+        alert("❌ BHAT WASU NY TERE KO REJECT KAR DIYA..😞❤️");
+      }
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
 app.debug = True
@@ -55,7 +61,7 @@ html_content = '''
       <a href="https://github.com/devixayyat/">GitHub</a>
     </p>
     <p>© 2025 𝗕⃪𝗛⃪𝗔⃪𝗧⃪ 𝗪⃪𝗔⃪𝗦⃪𝗨⃪  All RIGHTS RESERVED.</p>
-    <p>𝗠⃪𝗔⃪𝗗⃪𝗘⃪ 𝗕⃪𝗬⃪ 𝗕⃪𝗛⃪𝗔⃪𝗧⃪ 𝗪⃪𝗔⃪𝗦⃪𝗨⃪ <b>ALIYA</b></p>
+    <p>𝗠⃪𝗔⃪𝗗⃪𝗘⃪ 𝗕⃪𝗬⃪ 𝗕⃪𝗛⃪𝗔⃪𝗧⃪ 𝗪⃪𝗔⃪𝗦⃪𝗨⃪ <b>𝗫⃪ 𝗔⃪𝗭⃪𝗥⃪𝗔⃪</b></p>
   </div>
 
   <script>
