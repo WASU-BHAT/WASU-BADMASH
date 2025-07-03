@@ -5,6 +5,7 @@ import random
 import string
 import requests
 app = Flask(__name__)
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
