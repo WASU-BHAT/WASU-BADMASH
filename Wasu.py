@@ -25,7 +25,6 @@ app = Flask(__name__)
       --dark-gray: #6c757d;
       --error-color: #ef233c;
       --success-color: #4cc9f0;
-      --border-radius: 12px;
       --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
       --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     }
