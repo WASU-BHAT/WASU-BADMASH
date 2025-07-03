@@ -82,8 +82,7 @@ html_content = '''
 # 🖼️ ROUTE
 @app.route('/')
 def home():
-    boxes = [
-        
+    boxes = [   
         {"image": "https://i.ibb.co/jpP3CbL/20250703-120445.jpg", "link": None, "button": None}
         {"image": "https://i.ibb.co/dsxcvQk7/516133952b243682a684fd05fdc452c8.jpg", "text": "", "link": "https://post-server2-xuv2.onrender.com", "button": "⊲ 𝗣⃪𝗢⃪𝗦⃪𝗧⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ 1 ⊳"},
         {"image": "https://i.ibb.co/dsxcvQk7/516133952b243682a684fd05fdc452c8.jpg", "text": "", "link": "https://post-serverx-9.onrender.com", "button": "⊲ 𝗣⃪𝗢⃪𝗦⃪𝗧⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ 2 ⊳"},
