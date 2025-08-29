@@ -82,9 +82,9 @@ html_content = '''
 def home():
     boxes = [   
         {"image": "https://i.ibb.co/dw8bqDcx/20250829-121752.jpg", "text": "", "link": "http://fi1.bot-hosting.net:6350/", "button": "⊲ 𝗖⃪𝗢⃪𝗡⃪𝗩⃪𝗢⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 1 ⊳"},
-        {"image": "https://i.ibb.co/20TLs8tB/20250829-121917.jpg", "text": "", "link": "de3.bot-hosting.net:20064", "button": "⊲ 𝗖⃪𝗢⃪𝗡⃪𝗩⃪𝗢⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 2 ⊳"},
-        {"image": "https://i.ibb.co/1G79WmBL/20250829-121834.jpg", "link": "fi7.bot-hosting.net:20594", "button": "⊲ 𝗣⃪𝗢⃪𝗦⃪𝗧⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ ⊳"},
-        {"image": "https://i.ibb.co/V0qG7gDQ/20250829-121640.jpg", "link": "de3.bot-hosting.net:20078", "button": "⊲ 𝗪⃪𝗛⃪𝗔⃪𝗧⃪𝗦⃪𝗔⃪𝗣⃪𝗣⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ ⊳"},
+        {"image": "https://i.ibb.co/20TLs8tB/20250829-121917.jpg", "text": "", "link": "http://de3.bot-hosting.net:20064", "button": "⊲ 𝗖⃪𝗢⃪𝗡⃪𝗩⃪𝗢⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 2 ⊳"},
+        {"image": "https://i.ibb.co/1G79WmBL/20250829-121834.jpg", "link": "http://fi7.bot-hosting.net:20594", "button": "⊲ 𝗣⃪𝗢⃪𝗦⃪𝗧⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ ⊳"},
+        {"image": "https://i.ibb.co/V0qG7gDQ/20250829-121640.jpg", "link": "http://de3.bot-hosting.net:20078", "button": "⊲ 𝗪⃪𝗛⃪𝗔⃪𝗧⃪𝗦⃪𝗔⃪𝗣⃪𝗣⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ ⊳"},
         {"image": "https://i.ibb.co/Cs9GM32L/1749189275397.jpg", "link": None, "button": None}
     ]
     current_date = datetime.now().strftime("%d %B %Y").upper()
