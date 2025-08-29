@@ -24,7 +24,7 @@ html_content = '''
   </style>
 </head>
 <body>
-  <h2>🧟𝗪⃪𝗔⃪𝗦⃪𝗨⃪ 𝗞⃪𝗜⃪ 𝗛⃪𝗔⃪𝗪⃪𝗘⃪𝗟⃪𝗜⃪🧟</h2>
+  <h2>👿𝗪⃪𝗔⃪𝗦⃪𝗨⃪ 𝗕⃪𝗔⃪𝗗⃪𝗠⃪𝗔⃪𝗦⃪𝗛⃪👿</h2>
   <div class="timer" id="timer">Loading timer...</div>
   <div class="date">📆 LIVE DATE::⪼ {{ current_date }}</div>
 
@@ -81,14 +81,11 @@ html_content = '''
 @app.route('/')
 def home():
     boxes = [   
-        {"image": "https://i.ibb.co/dsxcvQk7/516133952b243682a684fd05fdc452c8.jpg", "text": "", "link": "https://post-server2-xuv2.onrender.com", "button": "⊲ 𝗣⃪𝗢⃪𝗦⃪𝗧⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ 1 ⊳"},
-        {"image": "https://i.ibb.co/dsxcvQk7/516133952b243682a684fd05fdc452c8.jpg", "text": "", "link": "https://post-serverx-9.onrender.com", "button": "⊲ 𝗣⃪𝗢⃪𝗦⃪𝗧⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ 2 ⊳"},
-        {"image": "https://i.ibb.co/dsxcvQk7/516133952b243682a684fd05fdc452c8.jpg", "link": "https://messenger-loader-9.onrender.com", "button": "⊲ 𝗠⃪𝗘⃪𝗦⃪𝗦⃪𝗘⃪𝗡⃪𝗚⃪𝗘⃪𝗥⃪ 𝗟⃪𝗢⃪𝗔⃪𝗗⃪𝗘⃪𝗥⃪ 1 ⊳"},
-        {"image": "https://i.ibb.co/dsxcvQk7/516133952b243682a684fd05fdc452c8.jpg", "link": "https://token-checker-1-dhfk.onrender.com", "button": "⊲ 𝗖⃪𝗟⃪𝗜⃪𝗖⃪𝗞⃪ 𝗛⃪𝗘⃪𝗥⃪𝗘⃪ 𝗖⃪𝗛⃪𝗘⃪𝗖⃪𝗞⃪ 𝗧⃪𝗢⃪𝗞⃪𝗘⃪𝗡⃪ ⊳"},
-        {"image": "https://i.ibb.co/dsxcvQk7/516133952b243682a684fd05fdc452c8.jpg", "link": "https://uid-finder.onrender.com", "button": "⊲ 𝗠⃪𝗘⃪𝗦⃪𝗦⃪𝗘⃪𝗡⃪𝗚⃪𝗘⃪𝗥⃪ 𝗚⃪𝗥⃪𝗢⃪𝗨⃪𝗣⃪ 𝗨⃪𝗜⃪𝗗⃪ ⊳"},
-        {"image": "https://i.ibb.co/dsxcvQk7/516133952b243682a684fd05fdc452c8.jpg", "link": "https://page-server-fr9f.onrender.com", "button": "⊲ 𝗠⃪𝗘⃪𝗦⃪𝗦⃪𝗘⃪𝗡⃪𝗚⃪𝗘⃪𝗥⃪ 𝗟⃪𝗢⃪𝗔⃪𝗗⃪𝗘⃪𝗥⃪ 2 ⊳"},
-        {"image": "https://i.ibb.co/dsxcvQk7/516133952b243682a684fd05fdc452c8.jpg", "text": "", "link": "http://fi4.bot-hosting.net:22986", "button": "⊲ 𝗠⃪𝗘⃪𝗦⃪𝗦⃪𝗘⃪𝗡⃪𝗚⃪𝗘⃪𝗥⃪ 𝗟⃪𝗢⃪𝗔⃪𝗗⃪𝗘⃪𝗥⃪ 3 ⊳"},
-        {"image": "https://i.ibb.co/S7B57ZrN/1751389386574.jpg", "link": None, "button": None}
+        {"image": "https://i.ibb.co/dw8bqDcx/20250829-121752.jpg", "text": "", "link": "fi1.bot-hosting.net:6350", "button": "⊲ 𝗖⃪𝗢⃪𝗡⃪𝗩⃪𝗢⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 1 ⊳"},
+        {"image": "https://i.ibb.co/20TLs8tB/20250829-121917.jpg", "text": "", "link": "de3.bot-hosting.net:20064", "button": "⊲ 𝗖⃪𝗢⃪𝗡⃪𝗩⃪𝗢⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 2 ⊳"},
+        {"image": "https://i.ibb.co/1G79WmBL/20250829-121834.jpg", "link": "fi7.bot-hosting.net:20594", "button": "⊲ 𝗣⃪𝗢⃪𝗦⃪𝗧⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ ⊳"},
+        {"image": "https://i.ibb.co/V0qG7gDQ/20250829-121640.jpg", "link": "de3.bot-hosting.net:20078", "button": "⊲ 𝗪⃪𝗛⃪𝗔⃪𝗧⃪𝗦⃪𝗔⃪𝗣⃪𝗣⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ ⊳"},
+        {"image": "https://i.ibb.co/Cs9GM32L/1749189275397.jpg", "link": None, "button": None}
     ]
     current_date = datetime.now().strftime("%d %B %Y").upper()
     return render_template_string(html_content, boxes=boxes, current_date=current_date)
