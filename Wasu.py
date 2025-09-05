@@ -26,7 +26,7 @@ html_content = '''
 <body>
   <h2>👿𝗪⃪𝗔⃪𝗦⃪𝗨⃪ 𝗕⃪𝗔⃪𝗗⃪𝗠⃪𝗔⃪𝗦⃪𝗛⃪👿</h2>
   <div class="timer" id="timer">Loading timer...</div>
-  <div class="date">📆 LIVE DATE::⪼ {{ current_date }}</div>
+  <div class="date">📆 𝗟⃪𝗜⃪𝗩⃪𝗘⃪ 𝗗⃪𝗔⃪𝗧⃪𝗘⃪::⪼ {{ current_date }}</div>
 
   {% for box in boxes %}
   <div class="box">
@@ -59,7 +59,7 @@ html_content = '''
     function updateTimer() {
       const now = new Date();
       const time = now.toLocaleTimeString();
-      document.getElementById("timer").innerText = "⌛ LIVE TIMER::⪼ " + time;
+      document.getElementById("timer").innerText = "⌛ 𝗟⃪𝗜⃪𝗩⃪𝗘⃪ 𝗧⃪𝗜⃪𝗠⃪𝗘⃪𝗥⃪::⪼ " + time;
     }
     setInterval(updateTimer, 1000);
     updateTimer();
@@ -81,11 +81,11 @@ html_content = '''
 @app.route('/')
 def home():
     boxes = [   
-        {"image": "https://i.ibb.co/dw8bqDcx/20250829-121752.jpg", "text": "", "link": "http://fi1.bot-hosting.net:6350", "button": "⊲ 𝗖⃪𝗢⃪𝗡⃪𝗩⃪𝗢⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 1 ⊳"},
-        {"image": "https://i.ibb.co/20TLs8tB/20250829-121917.jpg", "text": "", "link": "http://de3.bot-hosting.net:20064", "button": "⊲ 𝗖⃪𝗢⃪𝗡⃪𝗩⃪𝗢⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 2 ⊳"},
-        {"image": "https://i.ibb.co/1G79WmBL/20250829-121834.jpg", "link": "http://fi7.bot-hosting.net:20594", "button": "⊲ 𝗣⃪𝗢⃪𝗦⃪𝗧⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ ⊳"},
-        {"image": "https://i.ibb.co/V0qG7gDQ/20250829-121640.jpg", "link": "http://de3.bot-hosting.net:20078", "button": "⊲ 𝗪⃪𝗛⃪𝗔⃪𝗧⃪𝗦⃪𝗔⃪𝗣⃪𝗣⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ ⊳"},
-        {"image": "https://i.ibb.co/20K1jtPZ/20250829-161910.jpg", "link": "https://token-checker-plum.vercel.app/", "button": "⊲ 𝗧⃪𝗢⃪𝗞⃪𝗘⃪𝗡⃪ 𝗖⃪𝗛⃪𝗘⃪𝗖⃪𝗞⃪𝗘⃪𝗥⃪ ⊳"},
+        {"image": "https://i.ibb.co/nqKyd3cj/file-00000000140861f7bd7ebaa6c9d38b3a.png", "text": "", "link": "http://fi1.bot-hosting.net:6350", "button": "⊲ 𝗖⃪𝗢⃪𝗡⃪𝗩⃪𝗢⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 1 ⊳"},
+        {"image": "https://i.ibb.co/7x2wbfPr/file-00000000bcd861f58dbe1f47c894f08f.png", "text": "", "link": "http://de3.bot-hosting.net:20064", "button": "⊲ 𝗖⃪𝗢⃪𝗡⃪𝗩⃪𝗢⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 2 ⊳"},
+        {"image": "https://i.ibb.co/m5XsrcPk/file-0000000089ac61f88d3f39505123d1bd.png", "link": "http://fi7.bot-hosting.net:20594", "button": "⊲ 𝗣⃪𝗢⃪𝗦⃪𝗧⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ ⊳"},
+        {"image": "https://i.ibb.co/CKbSQTXg/file-000000003e2c61f7b27c361a773c07c4.png", "link": "http://de3.bot-hosting.net:20078", "button": "⊲ 𝗪⃪𝗛⃪𝗔⃪𝗧⃪𝗦⃪𝗔⃪𝗣⃪𝗣⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ ⊳"},
+        {"image": "https://i.ibb.co/wGQWd7c/file-000000008c1061f8a2db61dc11e0159d.png", "link": "https://token-checker-plum.vercel.app/", "button": "⊲ 𝗧⃪𝗢⃪𝗞⃪𝗘⃪𝗡⃪ 𝗖⃪𝗛⃪𝗘⃪𝗖⃪𝗞⃪𝗘⃪𝗥⃪ ⊳"},
         {"image": "https://i.ibb.co/Cs9GM32L/1749189275397.jpg", "link": None, "button": None}
     ]
     current_date = datetime.now().strftime("%d %B %Y").upper()
