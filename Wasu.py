@@ -81,11 +81,10 @@ html_content = '''
 @app.route('/')
 def home():
     boxes = [   
-        {"image": "https://i.ibb.co/nqKyd3cj/file-00000000140861f7bd7ebaa6c9d38b3a.png", "text": "", "link": "http://fi1.bot-hosting.net:6350", "button": "⊲ 𝗖⃪𝗢⃪𝗡⃪𝗩⃪𝗢⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 1 ⊳"},
-        {"image": "https://i.ibb.co/7x2wbfPr/file-00000000bcd861f58dbe1f47c894f08f.png", "text": "", "link": "http://de3.bot-hosting.net:20064", "button": "⊲ 𝗖⃪𝗢⃪𝗡⃪𝗩⃪𝗢⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 2 ⊳"},
-        {"image": "https://i.ibb.co/m5XsrcPk/file-0000000089ac61f88d3f39505123d1bd.png", "link": "http://fi7.bot-hosting.net:20594", "button": "⊲ 𝗣⃪𝗢⃪𝗦⃪𝗧⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ ⊳"},
-        {"image": "https://i.ibb.co/CKbSQTXg/file-000000003e2c61f7b27c361a773c07c4.png", "link": "http://de3.bot-hosting.net:20078", "button": "⊲ 𝗪⃪𝗛⃪𝗔⃪𝗧⃪𝗦⃪𝗔⃪𝗣⃪𝗣⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ ⊳"},
-        {"image": "https://i.ibb.co/wGQWd7c/file-000000008c1061f8a2db61dc11e0159d.png", "link": "https://token-checker-plum.vercel.app/", "button": "⊲ 𝗧⃪𝗢⃪𝗞⃪𝗘⃪𝗡⃪ 𝗖⃪𝗛⃪𝗘⃪𝗖⃪𝗞⃪𝗘⃪𝗥⃪ ⊳"},
+        {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "text": "", "link": "http://fi5.bot-hosting.net:21325", "button": "⊲ 𝗖⃪𝗢⃪𝗡⃪𝗩⃪𝗢⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 1 ⊳"},
+        {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "text": "", "link": "http://de3.bot-hosting.net:22466", "button": "⊲ 𝗖⃪𝗢⃪𝗡⃪𝗩⃪𝗢⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 2 ⊳"},
+        {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "link": "https://uid-finder-re3rry39g-wasu-bhats-projects.vercel.app/", "button": "⊲ 𝗨⃪𝗜⃪𝗗⃪ 𝗙⃪𝗜⃪𝗡⃪𝗗⃪𝗘⃪𝗥⃪⊳"},
+        {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "link": "https://token-checker-g62eyemfz-wasu-bhats-projects.vercel.app/", "button": "⊲ 𝗧⃪𝗢⃪𝗞⃪𝗘⃪𝗡⃪ 𝗖⃪𝗛⃪𝗘⃪𝗖⃪𝗞⃪𝗘⃪𝗥⃪⊳"},
         {"image": "https://i.ibb.co/Cs9GM32L/1749189275397.jpg", "link": None, "button": None}
     ]
     current_date = datetime.now().strftime("%d %B %Y").upper()
