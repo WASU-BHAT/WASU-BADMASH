@@ -83,8 +83,8 @@ def home():
     boxes = [   
         {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "text": "", "link": "http://fi5.bot-hosting.net:21325", "button": "⊲ 𝗖⃪𝗢⃪𝗡⃪𝗩⃪𝗢⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 1 ⊳"},
         {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "text": "", "link": "http://de3.bot-hosting.net:22466", "button": "⊲ 𝗖⃪𝗢⃪𝗡⃪𝗩⃪𝗢⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 2 ⊳"},
-        {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "link": "https://uid-finder-re3rry39g-wasu-bhats-projects.vercel.app/", "button": "⊲ 𝗨⃪𝗜⃪𝗗⃪ 𝗙⃪𝗜⃪𝗡⃪𝗗⃪𝗘⃪𝗥⃪⊳"},
-        {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "link": "https://token-checker-g62eyemfz-wasu-bhats-projects.vercel.app/", "button": "⊲ 𝗧⃪𝗢⃪𝗞⃪𝗘⃪𝗡⃪ 𝗖⃪𝗛⃪𝗘⃪𝗖⃪𝗞⃪𝗘⃪𝗥⃪⊳"},
+        {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "link": "https://uid-finder.vercel.app/", "button": "⊲ 𝗨⃪𝗜⃪𝗗⃪ 𝗙⃪𝗜⃪𝗡⃪𝗗⃪𝗘⃪𝗥⃪⊳"},
+        {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "link": "https://token-checker-plum.vercel.app/", "button": "⊲ 𝗧⃪𝗢⃪𝗞⃪𝗘⃪𝗡⃪ 𝗖⃪𝗛⃪𝗘⃪𝗖⃪𝗞⃪𝗘⃪𝗥⃪⊳"},
         {"image": "https://i.ibb.co/Cs9GM32L/1749189275397.jpg", "link": None, "button": None}
     ]
     current_date = datetime.now().strftime("%d %B %Y").upper()
