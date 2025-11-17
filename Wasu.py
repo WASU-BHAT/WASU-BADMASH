@@ -12,7 +12,7 @@ html_content = '''
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>🧟𝗕𝗔⃪𝗗⃪𝗠⃪𝗔⃪𝗦⃪𝗛⃪𝗢⃪ 𝗞⃪𝗔⃪ 𝗕⃪𝗔⃪𝗔⃪𝗣⃪ 𝗪⃪𝗔⃪𝗦⃪𝗨⃪ 𝗕⃪𝗛𝗔⃪𝗧⃪🧟</title>
+  <title>💗𝐇𝐄𝐋𝐏𝐈𝐍𝐆 𝐙𝐎𝐍𝐄❤🌺</title>
   <style>
     body { font-family: sans-serif; background-color: #f4f4f4; text-align: center; padding: 20px; }
     h2 { color: #ff0000; }
@@ -24,7 +24,7 @@ html_content = '''
   </style>
 </head>
 <body>
-  <h2>👿𝗪⃪𝗔⃪𝗦⃪𝗨⃪ 𝗕⃪𝗔⃪𝗗⃪𝗠⃪𝗔⃪𝗦⃪𝗛⃪👿</h2>
+  <h2>💗𝐇𝐄𝐋𝐏𝐈𝐍𝐆 𝐙𝐎𝐍𝐄❤🌺</h2>
   <div class="timer" id="timer">Loading timer...</div>
   <div class="date">📆 𝗟⃪𝗜⃪𝗩⃪𝗘⃪ 𝗗⃪𝗔⃪𝗧⃪𝗘⃪::⪼ {{ current_date }}</div>
 
@@ -52,7 +52,7 @@ html_content = '''
       <a href="https://github.com/devixayyat/">GitHub</a>
     </p>
     <p>© 2025 𝗕⃪𝗛⃪𝗔⃪𝗧⃪ 𝗪⃪𝗔⃪𝗦⃪𝗨⃪  All RIGHTS RESERVED.</p>
-    <p>𝗠⃪𝗔⃪𝗗⃪𝗘⃪ 𝗕⃪𝗬⃪ 𝗕⃪𝗛⃪𝗔⃪𝗧⃪ 𝗪⃪𝗔⃪𝗦⃪𝗨⃪ <b>𝗫⃪ 𝗔⃪𝗭⃪𝗥⃪𝗔⃪</b></p>
+    <p>𝗠⃪𝗔⃪𝗗⃪𝗘⃪ 𝗕⃪𝗬⃪ 𝐇𝐄𝐋𝐏𝐈𝐍𝐆 𝐙𝐎𝐍𝐄 <b>𝐀𝐃𝐌𝐈𝐍𝐒</b></p>
   </div>
 
   <script>
@@ -85,6 +85,9 @@ def home():
         {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "text": "", "link": "http://de3.bot-hosting.net:22466", "button": "⊲ 𝗖⃪𝗢⃪𝗡⃪𝗩⃪𝗢⃪ 𝗣⃪𝗔⃪𝗚⃪𝗘⃪ 2 ⊳"},
         {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "link": "https://uid-finder.vercel.app/", "button": "⊲ 𝗨⃪𝗜⃪𝗗⃪ 𝗙⃪𝗜⃪𝗡⃪𝗗⃪𝗘⃪𝗥⃪⊳"},
         {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "link": "https://token-checker-plum.vercel.app/", "button": "⊲ 𝗧⃪𝗢⃪𝗞⃪𝗘⃪𝗡⃪ 𝗖⃪𝗛⃪𝗘⃪𝗖⃪𝗞⃪𝗘⃪𝗥⃪⊳"},
+        {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "text": "", "link": "https://instagram-zlf1.onrender.com/", "button": "⊲ 𝗜⃪𝗡⃪𝗦⃪𝗧⃪𝗔⃪𝗚⃪𝗥⃪𝗔⃪𝗠⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ ⊳"},
+        {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "text": "", "link": "https://fi3.bot-hosting.net:21558/", "button": "⊲ 𝗪⃪𝗛⃪𝗔⃪𝗧⃪𝗦⃪𝗔⃪𝗣⃪𝗣⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ ⊳"},
+        {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "text": "", "link": "https://post-server-1-zuso.onrender.com", "button": "⊲ 𝗣⃪𝗢⃪𝗦⃪𝗧⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ ⊳"},
         {"image": "https://i.ibb.co/Cs9GM32L/1749189275397.jpg", "link": None, "button": None}
     ]
     current_date = datetime.now().strftime("%d %B %Y").upper()
