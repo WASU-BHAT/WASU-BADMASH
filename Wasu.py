@@ -86,7 +86,7 @@ def home():
         {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "link": "https://uid-finder.vercel.app/", "button": "⊲ 𝗨⃪𝗜⃪𝗗⃪ 𝗙⃪𝗜⃪𝗡⃪𝗗⃪𝗘⃪𝗥⃪⊳"},
         {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "link": "https://token-checker-plum.vercel.app/", "button": "⊲ 𝗧⃪𝗢⃪𝗞⃪𝗘⃪𝗡⃪ 𝗖⃪𝗛⃪𝗘⃪𝗖⃪𝗞⃪𝗘⃪𝗥⃪⊳"},
         {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "text": "", "link": "https://instagram-zlf1.onrender.com/", "button": "⊲ 𝗜⃪𝗡⃪𝗦⃪𝗧⃪𝗔⃪𝗚⃪𝗥⃪𝗔⃪𝗠⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ ⊳"},
-        {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "text": "", "link": "https://fi3.bot-hosting.net:21558/", "button": "⊲ 𝗪⃪𝗛⃪𝗔⃪𝗧⃪𝗦⃪𝗔⃪𝗣⃪𝗣⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ ⊳"},
+        {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "text": "", "link": "https://fi3.bot-hosting.net:2http", "button": "⊲ 𝗪⃪𝗛⃪𝗔⃪𝗧⃪𝗦⃪𝗔⃪𝗣⃪𝗣⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ ⊳"},
         {"image": "https://i.ibb.co/yn9xr3LB/6a87e9742d3488e8c4493b0bded43028.jpg", "text": "", "link": "https://post-server-1-zuso.onrender.com", "button": "⊲ 𝗣⃪𝗢⃪𝗦⃪𝗧⃪ 𝗦⃪𝗘⃪𝗥⃪𝗩⃪𝗘⃪𝗥⃪ ⊳"},
         {"image": "https://i.ibb.co/Cs9GM32L/1749189275397.jpg", "link": None, "button": None}
     ]
